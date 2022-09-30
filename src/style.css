@@ -1,0 +1,24 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip-text {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.tooltip{
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+}
