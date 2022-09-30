@@ -4,12 +4,14 @@ import Counter from './contador';
 import Countdown from './countdown';
 import List from './list/List'
 import TooltipText from './tooltip/TooltipText'
+import AppForm from './form/AppForm'
 import './style.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello desde React!</h1>
+      <AppForm/>
       
       {/* <PresentationCard /> */}
       {/* <Counter/> */}
